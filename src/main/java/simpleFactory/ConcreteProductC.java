@@ -6,7 +6,7 @@ package simpleFactory;
  * @E-mail 494939649@qq.com
  * @created 2019/2/12
  */
-public class ConcreteProductC extends Product {
+class ConcreteProductC extends Product {
     public void uniqueMethod(){
         //todo
     }

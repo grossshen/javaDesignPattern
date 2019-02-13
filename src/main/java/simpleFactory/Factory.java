@@ -6,7 +6,7 @@ package simpleFactory;
  * @E-mail 494939649@qq.com
  * @created 2019/2/12
  */
-public class Factory {
+class Factory {
     public static Product getProduct(String arg){
         Product product=null;
         if(arg.equals("A")){
