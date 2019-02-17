@@ -1,0 +1,1 @@
+i learned java design pattern at the second time with the blog:https://quanke.gitbooks.io/design-pattern-java
