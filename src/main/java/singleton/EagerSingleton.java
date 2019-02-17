@@ -6,7 +6,7 @@ package singleton;
  * @E-mail 494939649@qq.com
  * @created 2019/2/15
  */
-//懒汉模式
+//饿汉模式
 public class EagerSingleton {
     public static final EagerSingleton singleton=new EagerSingleton();
     private EagerSingleton(){};
