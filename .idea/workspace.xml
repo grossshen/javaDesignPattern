@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d07f421-e2cf-4727-9cfd-43d5bca8e7e4" name="Default" comment="add builer pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/anotherAdapter.java" afterDir="false" />
+    <list default="true" id="5d07f421-e2cf-4727-9cfd-43d5bca8e7e4" name="Default" comment="add adapter pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/ConcreteImplementor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/Implementor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/RefinedAbstraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/prototype/DeepClone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/builder/Builder.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,17 +33,61 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adapter/Adapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="190">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <element signature="e#97#98#0" expanded="true" />
                 <element signature="e#116#117#0" expanded="true" />
                 <element signature="e#175#176#0" expanded="true" />
                 <element signature="e#197#198#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bridge/Abstraction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+              <folding>
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bridge/RefinedAbstraction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding>
+                <element signature="e#98#99#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bridge/Implementor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bridge/ConcreteImplementor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -89,42 +124,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/builder/ConcreteBuilderA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-              <folding>
-                <element signature="e#87#88#0" expanded="true" />
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/builder/ConcreteBuilderB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <element signature="e#88#89#0" expanded="true" />
-                <element signature="e#110#111#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/builder/Director.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -134,28 +133,6 @@
                 <element signature="e#130#131#0" expanded="true" />
                 <element signature="e#183#184#0" expanded="true" />
                 <element signature="e#221#222#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/builder/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-              <folding>
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -178,9 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/simpleFactory/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/simpleFactory/ConcreteProductC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/simpleFactory/ConcreteProductB.java" />
         <option value="$PROJECT_DIR$/src/main/java/simpleFactory/ConcreteProductA.java" />
         <option value="$PROJECT_DIR$/src/main/java/factoryMethod/ConcreteProductA.java" />
         <option value="$PROJECT_DIR$/src/main/java/factoryMethod/ConcreteProductB.java" />
@@ -229,6 +203,9 @@
         <option value="$PROJECT_DIR$/src/main/java/adapter/Target.java" />
         <option value="$PROJECT_DIR$/src/main/java/adapter/Adapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/adapter/anotherAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bridge/Implementor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bridge/Abstraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bridge/RefinedAbstraction.java" />
       </list>
     </option>
   </component>
@@ -240,8 +217,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="647" />
-    <option name="y" value="117" />
+    <option name="x" value="812" />
+    <option name="y" value="146" />
     <option name="width" value="948" />
     <option name="height" value="729" />
   </component>
@@ -285,7 +262,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="bridge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
@@ -304,7 +281,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550386856793" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550388350576" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -401,7 +378,7 @@
       <workItem from="1550065040491" duration="2677000" />
       <workItem from="1550194121394" duration="4551000" />
       <workItem from="1550371820422" duration="111000" />
-      <workItem from="1550372660357" duration="10761000" />
+      <workItem from="1550372660357" duration="12359000" />
     </task>
     <task id="LOCAL-00001" summary="add factory method">
       <created>1550065202940</created>
@@ -438,14 +415,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550385087421</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add adapter pattern">
+      <created>1550387362310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550387362310</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27064000" />
+    <option name="totallyTimeSpent" value="28662000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="518" y="94" width="758" height="583" extended-state="0" />
+    <frame x="650" y="117" width="758" height="583" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26217765" />
@@ -490,37 +474,10 @@
     <MESSAGE value="add factory method" />
     <MESSAGE value="add prototype design model" />
     <MESSAGE value="add builer pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add builer pattern" />
+    <MESSAGE value="add adapter pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add adapter pattern" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/simpleFactory/ConcreteProductB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/simpleFactory/ConcreteProductA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factoryMethod/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factoryMethod/ConcreteFactoryB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/factoryMethod/ConcreteProductB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -906,13 +863,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adapter/Adapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="e#97#98#0" expanded="true" />
             <element signature="e#116#117#0" expanded="true" />
             <element signature="e#175#176#0" expanded="true" />
             <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bridge/ConcreteImplementor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bridge/RefinedAbstraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bridge/Implementor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bridge/Abstraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
           </folding>
         </state>
       </provider>
